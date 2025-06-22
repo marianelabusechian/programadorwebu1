@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerveceria 1926</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vinculacion de Bootstrap con css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <!-- Fin vinculacion Bootstrap con css -->
+
+    <!-- Vinculación html con css -->
+    <link rel="stylesheet" href="css/cerveceria.css" />
+    <!-- Fin vinculacion html con css -->
+
+</head>
+
+<body>
+    <!-- Inicio Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BEER 1926</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conocenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Barra de Navegación -->
+
+
+    <div class="container-fluid">
+        <div id="home" class="row aling-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>Título Principal</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad sint cupiditate exercitationem tempora
+                    aperiam, reiciendis pariatur, odio magni repellat placeat optio eaque similique assumenda alias nisi
+                    cumque natus temporibus fuga.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Div Padre -->
+    <div class="row my-3">
+        <!-- Inicio Novedades -->
+        <div id="novedades" class="col-md-5 offset-md-2">
+            <h2>Novedades</h2>
+            <ul class="lista-novedades">
+                <li><a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">
+                        <img src="img/novedades01.jpg"> Nuevas Recetas 1</a></li>
+                <li><a href="#"><img src="img/novedades01.jpg"> Nuevas Recetas 2</a></li>
+                <li><a href="#"><img src="img/novedades01.jpg"> Nuevas Recetas 3</a></li>
+                <li><a href="#"><img src="img/novedades01.jpg"> Nuevas Recetas 4</a></li>
+                <li><a href="#"><img src="img/novedades01.jpg"> Nuevas Recetas 5</a></li>
+            </ul>
+        </div>
+        <!-- Fin Novedades -->
+
+        <!-- Inicio Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h1>Modal Prueba</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Modal -->
+
+        <footer>
+            <p class="text-center">Diseñado por: Marianela Busechian 2025</p>
+        </footer>
+
+    </div 
+    
+    <!-- Inicio Viinculacion Bootstrap con js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- Fin vinculacion Bootstrap con js -->
+
+</body>
+
+</html>
